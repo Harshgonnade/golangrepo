@@ -1,5 +1,6 @@
+// packge decleration line
 package main
-
+// import declaration line
 import "fmt"
 // Here we are call the int value and print return by using the func main
 func main() {
@@ -10,6 +11,7 @@ func main() {
 	fmt.Println(result)
 }
 
+// function decleration line
 // function is a reusable 'code block' which is having same name
 // function take some 'inpute arguments' and return some 'output arguments'
 // syntax: func <function name> (inpute arguments) (output arguments){code block}
