@@ -21,4 +21,19 @@ func main () {
 		fmt.Println(a * i)
 	}
 	
+	//
+	numbers := []int{7, 9, 1, 2, 4, 5}
+
+	for i := 0; i < len(numbers); i++ {
+		fmt.Println(numbers[i])
+
+	}
+	
+	//
+	arr := []string{"a", "b", "c", "d", "e", "f"}
+
+	for index, a := range arr {
+		fmt.Println(index, a)
+	}
+	
 }
